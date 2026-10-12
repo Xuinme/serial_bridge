@@ -7,6 +7,8 @@ __pycache__/
 *.spec
 build/
 dist/
-release/
+release/*
+!release/SerialBridgeManager-2.3.2-Setup.exe
+!release/SHA256SUMS.txt
 .obsidian/
 settings.json

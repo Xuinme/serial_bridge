@@ -2,7 +2,7 @@
 
 串口桥接（Serial Bridge Manager）是一款 Windows 串口转 TCP 管理工具，可将物理 COM 端口共享给多个外部终端或 AI 客户端，同时管理多个独立连接。
 
-当前源码版本：**2.3.2**。本次仅发布源码，安装包将在后续发布。
+当前版本：**2.3.2**。源码与 Windows 安装包均已提供。
 
 ## 主要功能
 
@@ -106,6 +106,10 @@ RELEASE_NOTES_2.3.2.md # 当前版本更新说明
 
 ## 版本与安装包
 
-版本号由根目录 `VERSION` 统一管理。正式 Windows 安装包采用 Nuitka standalone 与 Inno Setup 构建，后续将在本仓库 Releases 页面发布。
+版本号由根目录 `VERSION` 统一管理。正式 Windows 安装包采用 Nuitka standalone 与 Inno Setup 构建。
+
+下载 [v2.3.2 Windows 安装包](release/SerialBridgeManager-2.3.2-Setup.exe)，点击文件页面中的下载按钮保存后运行。SHA256 校验值见 [SHA256SUMS.txt](release/SHA256SUMS.txt)。
+
+升级前请完全退出旧版程序，包括系统托盘中的实例。安装包由项目维护者提供，本次上传仅验证文件复制一致性，未重新执行安装、卸载或硬件验收。
 
 详细更新见 [v2.3.2 更新说明](RELEASE_NOTES_2.3.2.md)。

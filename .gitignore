@@ -1,0 +1,12 @@
+.ai/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+*.spec
+build/
+dist/
+release/
+.obsidian/
+settings.json
